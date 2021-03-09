@@ -160,7 +160,10 @@ ol {
 }
 
 .benefits-item:not(:last-child) {
-  margin-right: 30px;
+  margin-left: 30px;
+}
+.benefits-list {
+  margin-left: -30px;
 }
 .title-benefit {
   font-weight: 700;
@@ -204,12 +207,12 @@ ol {
 .we-do-list {
   display: flex;
   align-items: center;
-  margin-right: -30px;
+  margin-left: -30px;
   margin-top: -30px;
 }
 .we-do-list-item {
   flex-basis: calc(100% / 3 - 30px);
-  margin-right: 30px;
+  margin-left: 30px;
   margin-top: 30px;
 }
 /*====================end WHAT WE DO SECTION===========================*/
@@ -241,13 +244,13 @@ ol {
 .our-team-list {
   display: flex;
   align-items: center;
-  margin-top: -30px;
-  margin-right: -30px;
+  margin-top: 30px;
+  margin-left: -30px;
 }
 .our-team-list-item {
   flex-basis: calc(100% / 4 - -30px);
   margin-top: 30px;
-  margin-right: 30px;
+  margin-left: 30px;
   background-color: var(--header-background-color);
 }
 .our-team-card-format {
@@ -310,13 +313,13 @@ ol {
 .pf-project-container {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
   margin-top: -30px;
 }
 .pf-pj-list {
   flex-basis: calc(100% / 3 - 30px);
   width: 370px;
-  margin-right: 30px;
+  margin-left: 30px;
   margin-top: 30px;
 }
 .pf-project-format {
@@ -393,3 +396,4 @@ ol {
   letter-spacing: 0.03em;
   color: var(--footer-mail-tel);
 }
+/*====================end FOOTER===========================*/
